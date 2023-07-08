@@ -160,3 +160,35 @@ main{
     font-weight: 400;
     line-height: 30px;
 }
+
+.skill-container{
+    display: flex;
+    margin-top: 30px;
+}
+
+.skill{
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+    margin-right: 20px;
+}
+
+
+.skill>img{
+    padding-bottom: 20px;
+}
+
+.skill>h3{
+    color: var(--dark-01, #181818);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.skill>p{
+    color: var(--dark-03, #757575);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-top: 20px;
+}
