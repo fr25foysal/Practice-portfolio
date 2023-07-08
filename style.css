@@ -121,7 +121,7 @@ section{
     margin-top: 100px;
 }
 
-main{
+main , footer{
     padding: 0 220px;
 }
 
@@ -192,3 +192,101 @@ main{
     line-height: 28px;
     padding-top: 20px;
 }
+
+.experience-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.experience-box:last-child{
+    padding-left: 25px;
+}
+
+.experience-box{
+    padding-top: 50px;
+}
+
+.experience-box>h2{
+    color: var(--dark-02, #474747);
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.experience h2{
+    color: var(--dark-02, #474747);
+    font-size: 25px;
+    font-weight: 700;
+    padding: 25px 0 6px 0 ;
+}
+
+.experience h3{
+    color: var(--dark-03, #757575);
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 16px;
+
+}
+
+.experience p{
+    color: var(--dark-03, #757575);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-bottom: 30px;
+}
+
+footer{
+    background-color: #FFF8F3;
+    padding: 100px 220px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-box{
+    max-width: 50%;
+    
+}
+
+.footer-box>h2{
+    color: var(--dark-01, #181818);
+    font-size: 35px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.footer-box>p{
+    color: var(--dark-02, #474747);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 20px 0;
+}
+
+.fa-brands{
+    color: #FD6E0A;
+    padding-right: 20px;
+    font-size: 22px;
+}
+
+.input{
+    border-radius: 5px;
+    background: var(--white-color, #FFF);
+    border: none;
+    margin-top: 20px;
+    padding: 18px 250px 18px 30px;
+    display: block;
+    color: var(--dark-03, #757575);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+textarea {
+    resize: none;
+  }
+
